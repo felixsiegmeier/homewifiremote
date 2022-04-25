@@ -50,6 +50,6 @@ app.post("/bettlicht", (req, res)=>{
 	client.publish("bettlicht/"+key, value)
 })
 
-app.listen(3000, () => {
+app.listen(4000, () => {
 	console.log("Server up and running")
 })
