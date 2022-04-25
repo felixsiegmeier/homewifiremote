@@ -1,0 +1,22 @@
+
+body{
+    text-align: center;
+}
+
+input[type=checkbox] {
+    transform: scale(4.0);
+    margin: auto !important;
+    margin-top: 50px !important;
+    }
+
+.form-switch{
+    display: flex;
+    justify-content: center;
+}
+
+input[type=range] {
+    position: relative;
+    top: 100px;
+    width: 60%;
+    margin: auto;
+    }

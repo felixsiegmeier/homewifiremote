@@ -1,0 +1,11 @@
+<%- include("header") -%>
+
+<h1>Bettlicht</h1>
+<div class="form-check form-switch">
+  <input class="form-check-input" type="checkbox" role="switch" id="bettSwitch" <%if(bett.status){%>checked<%}%>>
+</div>
+
+<input type="range" class="form-range" id="bettHelligkeit" min="0" max="100" value="<%= bett.helligkeit%>">
+
+
+<%- include("footer") -%>
